@@ -12,7 +12,7 @@ local function getScript(url)
     end
 end
 
-local scriptContent = getScript("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/AutoDoughking-Rip-byTeddy"))()")
+local scriptContent = getScript("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/AutoDoughking-Rip-byTeddy")
 
 if scriptContent then
     loadstring(scriptContent)()
